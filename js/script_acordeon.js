@@ -3,9 +3,9 @@ $('dl dd').not('dt.activo + dd').hide();
 
                         });
                         $('dl dt').click(function(){
-   if ($(this).hasClass('activo')) {
-        $(this).removeClass('activo');
-        $(this).next().slideUp();
+   if ($(css/style.css).hasClass('activo')) {
+        $(css/style.css).removeClass('activo');
+        $(css/style.css).next().slideUp();
    } else {
         $('dl dt').removeClass('activo');
         $(this).addClass('activo');
