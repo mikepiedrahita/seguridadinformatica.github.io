@@ -388,4 +388,57 @@ p {
 	font-size: 12px;
 	font-weight: normal;
 	color: #333;
+	text-align: justify;
 }
+
+#agrupar {
+width: 960px;
+margin: 15px auto;
+text-align: left;
+}
+
+.acordeon dl{
+ margin: 10px auto; 
+ width: 700px; 
+}
+
+   .acordeon dt {
+	padding: 10px; 
+	text-align: left;
+}
+
+  .acordeon dd{ 
+ 	padding: 20px; 
+ 	font-size: 12px;
+	font-weight: normal;
+	text-align: justify;
+ 	 }
+
+  .acordeon dt{ 
+ 	background: #003f5e; 
+ 	color: white; 
+ 	border-bottom: 1px solid #141414; 
+ 	border-top: 1px solid #4E4E4E; 
+ 	cursor: pointer; 
+
+ }
+
+   .acordeon dd{ 
+ 	background: #F5F5F5; 
+ 	line-height: 1.6em; 
+ }
+
+   .acordeon dt.activo {
+	background: #424242; 
+}
+    .acodeon dt:hover{ 
+ 	background: #424242; 
+ }
+
+    .acordeon dt:before{ 
+    	content: "▸"; 
+    	margin-right: 10px; 
+    }
+    .acordeon dt.activo:before{ 
+    	content: "▾"; 
+    }
