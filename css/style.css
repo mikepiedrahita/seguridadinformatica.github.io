@@ -264,6 +264,14 @@ div {
 	left: 516px;
 	top: 1012px;
 }
+#apDiv28 {
+    font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+	letter-spacing: 5px;
+}
 #contenidos{
 	width: 1000px;
 	height: auto;
@@ -361,7 +369,8 @@ p{
 	line-height: 24px;
 	padding: 10px;
 	text-align: justify;
-}
+	}
+
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
